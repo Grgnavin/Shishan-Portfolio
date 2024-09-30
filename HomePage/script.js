@@ -22,17 +22,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyC9Y7ZqUO1SvJVrEm84vTq47BphfmJ1g1Q",
-    authDomain: "suresh-portfolio-a1991.firebaseapp.com",
-    databaseURL: "https://suresh-portfolio-a1991-default-rtdb.firebaseio.com",
-    projectId: "suresh-portfolio-a1991",
-    storageBucket: "suresh-portfolio-a1991.appspot.com",
-    messagingSenderId: "339285379846",
-    appId: "1:339285379846:web:1dd494a25dc19aab116c87",
-    measurementId: "G-YTRXCN8X88"
-};
 
 firebase.initializeApp(firebaseConfig);
 
